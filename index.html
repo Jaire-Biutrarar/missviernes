@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miss Viernes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="carta">
+        <header>
+            <h1>MISS VIERNES</h1>
+        </header>
+
+        <div class="foto">
+            <img src="img/usperfil.png" alt="fotoperfil">
+        </div>
+
+        <div class="reproductor">
+            <div class="pestanas">
+                <button data-lista="dedica">Te las dediqué</button>
+                <button data-lista="dedico">Quería dedicarte</button>
+                <button data-lista="detodo">Todo</button>
+            </div>
+            <div class="ahora-suena">
+                <button id="btn-play">▶</button>
+                <div>
+                    <p id="titulo">Elige la canción</p>
+                    <input type="range" id="progreso" value="0">
+                </div>
+            </div>
+            <ul id="lista-canciones"></ul>
+        </div>
+
+        <main>
+            <div class="botones-principales">
+                <button data-ir="memory">Recuerdos</button>
+                <button data-ir="kpaola">Coleanita</button>
+                <button data-ir="kjaire">Autor</button>
+                <button data-ir="duomax">Algo más</button>
+            </div>
+        </main>
+
+        <section class="memory" hidden>
+            <header>
+                <h2>NUESTROS RECUERDOS</h2>
+            </header>
+            <nav>
+                <button data-ir="kpaola">Coleanita</button>
+                <button data-ir="kjaire">Autor</button>
+                <button data-ir="duomax">Algo más</button>
+                <button data-volver>Volver</button>
+            </nav>
+            <div class="contenedor">
+                <div class="mensaje">
+                    <p>Mi pao, quién diría que en un juego de banderas nos haríamos conocer y que a los 3 días <br>
+                    un juego de sobrevivir a los desastres naturales nos forzaría la amistad... También ahí fue <br>
+                    donde dañé tu ciclo de sueño jajajaja, sorry <br>
+                    Sin olvidar la despedida de tus vacaciones bien dramática, ni el Titanic nos ganó con mero drama</p>
+                    <p>A lo largo de los días mientras jugábamos, he tomado capturas a los chats o nosotros <br>
+                    mientras jugábamos (obviamente no desde el primer día, sino desde antes irte tus vacaciones, <br>
+                    como 15 días, hay diferencia) jajajaja <br>
+                    Lo tenía para recordar buenos momentos, ahora te dejaré las mejores capturas o videos en esta <br>
+                    página, para "más drama" así como tú dices...</p>
+                </div>
+                <div class="galeria">
+
+                </div>
+                <div class="mensaje">
+                    <p>Espero que ames esas fotos como yo las amé. En estos meses me has dado motivos para volver a <br>
+                    Roblox, encontré el diamante en Roblox, te encontré a ti... Y cuando estemos juntos de vuelta <br>
+                    haremos más recuerdos... Eres lo más lindo que me ha pasado, mi pao, alias miss viernes, <br>
+                    alias coleanita o chica que te da cringe medio mundo... ❤</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="kpaola" hidden>
+            <header>
+                <h2>MI PAO (COLEANITA/MISS VIERNES)</h2>
+            </header>
+            <nav>
+                <button data-ir="memory">Recuerdos</button>
+                <button data-ir="kjaire">Autor</button>
+                <button data-ir="duomax">Algo más</button>
+                <button data-volver>Volver</button>
+            </nav>
+            <div class="contenedor">
+                <div class="ella">
+                    <div class="resumen">
+                        <p>Esta bella existencia es Khali Paola, alias miss viernes… (por faltar todos los viernes a <br>
+                        clases… nanana) o alias coleanita; porque tus ojos de Roblox son cerrados como una asiática, y <br>
+                        como te gusta los k-drama ahí esta coleanita (y no coreana porque ellos no pronuncia la R…) jajajaja <br>
+                        Y qué más sobre ti, tenés 16 años y cumples el 6 de febrero y eres 2010. Amas el k-drama y tenés <br>
+                        4 perros salchichas: Mora, Canela, Carmelo (exótico) y Pablo (por Pablo Escobar), que eres muy sensible <br>
+                        y lloras por nada, pero también eres alegre y divertida... Con toques sarcásticos y ocultas tus emociones <br>
+                        con sarcasmo y seriedad <br><br>
+                        Qué más... Y que te gusta jugar y estar conmigo, lo primordial... Jajaja, que amas estar en tu casa y tus <br>
+                        colores favoritos son, azul turquesa y amarillo y amas el rosa... Te encanta hacerte las uñas</p>
+                    </div>
+                    <div class="foto-perfil">
+                        <img src="img/ella/perfil.png" alt="paoperfil">
+                    </div>
+                </div>
+                <div class="mensaje">
+                    <p>Amo tu actitud, sí, pareces seria cuando me pongo cursi o a veces aceptas y eso es lindo, sé que cuando estás <br>
+                    seria cuando estoy cursi, sé que lo haces para que yo no me crea de más, pero sé que te gusta mi momento <br>
+                    cursi, creo... Jajaja <br>
+                    Y amo cuando dices: "cursi", "ayy, qué lindo" o "awww"... Amo esa dulzura tuya... <br>
+                    Amo cuando te ríes de mis malos chistes, eres muy llevadera, en sentido que no juzgas y solo te diviertes, <br>
+                    amo pasar tiempo contigo por esa actitud que te cargas <br><br>
+                    Eres muy cool, y amo cuando hablas, sobre algo que te pasó, porque me incluyes en tu vida, y aunque a veces <br>
+                    digas que eres insoportable en tus mal humor, siempre estaré para ti, mi pao, juntos o juntos, mi niña, <br>
+                    eres genial, mi pao, miss viernes/coleanita</p>
+                </div>
+                <div class="foto-paola">
+                    <img src="img/ella/ella1.png" alt="ella1">
+                    <img src="img/ella/ella2.png" alt="ella2">
+                    <img src="img/ella/paofav.png" alt="paof">
+                    <img src="img/ella/ella3.png" alt="ella3">
+                    <img src="img/ella/ella4.png" alt="ella4">
+                </div>
+                <div class="mensaje">
+                    <p>Y lo primordial y algo que casi no te digo, es lindo cuando te preocupas por mí, eso lo valoro, sea <br>
+                    por sueño, salud o estado de ánimo, valoro mucho eso... Me haces sentir querido, protegido o valorado... <br>
+                    (es que en mi desarrollo de niño y así, crecí sin la preocupación de mis padres, o sea cualquier cosa que <br>
+                    me pasaba, ajá... Y por eso valoro mucho ese lindo gesto tuyo, mi pao ❤)</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="kjaire" hidden>
+            <header>
+                <h2>MI EXISTENCIA</h2>
+            </header>
+            <nav>
+                <button data-ir="memory">Recuerdos</button>
+                <button data-ir="kpaola">Coleanita</button>
+                <button data-ir="duomax">Algo más</button>
+                <button data-volver>Volver</button>
+            </nav>
+            <div class="contenedor">
+                <div class="yo">
+                    <div class="resumen">
+                        <p>Este soy yo, el verdadero rostro detrás de las gafas de Roblox... Gafas para dar más drama, así porque sí... <br>
+                        Y bueno soy yo a mis 17 a 18 años más o menos o 19, no recuerdo bien... Tengo 21, del 6 de septiembre y <br>
+                        mido 1.75 m. Así y ya ni actitud la conoces... Jajaja</p>
+                    </div>
+                    <div class="foto-perfil">
+                        <img src="img/yo/nerd.jpg" alt="yoperfil">
+                    </div>
+                </div>
+                <div class="mensaje">
+                    <p>Mis motivos para crear esta página es para dejarte algo de mí, ya sabes mi huella... Que puedas recordarme <br>
+                    y darte esperanzas (y darme esperanzas) para volver a estar juntos porque amo estar contigo, o te amo, <br>
+                    quién sabe, jajajaja estoy sin dormir, pero pao, todo va a estar bien, volveré por ti, y disfruta <br>
+                    esta hermosa creación hecha para la mujer que amo y admiro... Tú (y sí, estoy cursi... y espero <br>
+                    que regrese, que lo estaré el doble... jajajajaja)</p>
+                </div>
+                <div class="foto-kevin">
+                    <img src="img/yo/mia.png" alt="miapao">
+                    <img src="img/yo/yo.jpg" alt="kevinfot">
+                    <img src="img/yo/serio.jpg" alt="serio">
+                    <img src="img/yo/corazon.png" alt="cor">
+                </div>
+                <div class="mensaje">
+                    <p>Y este soy yo, actualmente... creo que cambié un poco, ¿no crees?... dime, ¿estoy guapo para nuestros <br>
+                    futuros 10 hijos? jajajaja</p>
+                    <p>No sé qué más decir de mí... que te amo y quiero ya lo sabes... que me importas también, y que amo <br>
+                    verte feliz o saber que estás feliz también... viviré para estar contigo y para juntos, quién sabe... <br>
+                    hay moral... Mi paoooo, no lo olvides... eres miss viernes jajaja nunca vayas los viernes por mí...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="duomax" hidden>
+            <header>
+                <h2>MI DÚO, ALGO MÁS QUE DECIRTE</h2>
+            </header>
+            <nav>
+                <button data-ir="memory">Recuerdos</button>
+                <button data-ir="kpaola">Coleanita</button>
+                <button data-ir="kjaire">Autor</button>
+                <button data-volver>Volver</button>
+            </nav>
+            <div class="contenedor">
+                <div class="foto-linda">
+                    <img src="img/lindaconmigo/nosotros.png" alt="us">
+                    <img src="img/lindaconmigo/deella.png" alt="aw">
+                    <img src="img/lindaconmigo/ok.png" alt="ok">
+                </div>
+                <div class="mensaje">
+                    <p>Mi pao, has sido la mejor compañera o dúo, que un hombre ha podido tener, no existe ni una sola noche <br>
+                    que no me haya divertido jugando con vos... siempre es risa hasta el amanecer, pido disculpas por tu <br>
+                    horario de sueño... si tuviera la oportunidad de volver a conocerte, no la perdería, te volviste como <br>
+                    mi lugar seguro y así... amo jugar con vos y es lindo esos gestos que das a mí... no espero el momento <br>
+                    para volver a jugar juntos hasta el amanecer... aunque actualmente no esté contigo o no tengamos mucha <br>
+                    comunicación... quiero que sepas que te estaré pensando como mi motivación del día a día... y quién sabe, <br>
+                    tal vez cuando salga y me esperaste, podamos a estar juntos... a decirle a tu madre, que yo soy el responsable <br>
+                    de quien te dañara el ciclo del sueño... jajajaja... siempre estarás en mi mente... mi miss viernes.</p>
+                </div>
+                <div class="foto-linda">
+                    <img src="img/lindaconmigo/beso.png" alt="beso">
+                    <img src="img/lindaconmigo/gustar.png" alt="cute">
+                    <img src="img/lindaconmigo/mibb.png" alt="mibb">
+                </div>
+                <div class="mensaje">
+                    <p>Amo cuando te expresas lindo conmigo... ya que rara vez lo haces... guardo esas capturas para ponerme sentimental <br>
+                    o para agarrar fuerzas en mi día a día, ya sabes motivación... has sido un gran apoyo en mi vida, mi pao... y <br>
+                    gracias por todo... Amo estar contigo, y como te dije, salgo y capaz te visite, bueno, espero cómo va las <br>
+                    cosas... pero por qué decir eso, si tengo tus cadenas... solo voy y ya, ¿no? jajajaja para ver así cómo soporta <br>
+                    mi forma de ser cursi y chitosa en pantalla, también en persona... nananana jajajaja... ay mi pao, cuídate... ¿sí? <br>
+                    volveré a ser civil en el futuro, para ser el dúo más duro de Roblox...</p>
+                    <p>Algo que más por aclarar, como podasta... iba a poner una foto de nosotros hecho en IA con 20 hijos <br>
+                    10 niños y 10 niñas... así como mínimo, como tú dices... pero no encontré foto de nosotros estando en una <br>
+                    posición de familia... jajaja y lo otro, tengo más fotos tú siendo linda, pero es más que todo por el chat <br>
+                    público de Roblox... y ajá, la idea es salir nosotros, para más drama... te quiero(/amo), mi pao</p>
+                </div>
+                <hr>
+                <div class="subtitulo">
+                    <h3>La belleza de Miss Viernes</h3>
+                </div>
+                <div class="foto-arte">
+                    <img src="img/art/kha.png" alt="khali">
+                    <img src="img/art/pao.png" alt="paola">
+                    <img src="img/art/kp.png" alt="kpcute">
+                    <div class="dedi">
+                        <p>Mi cursilería fue tan grande que te dibujé para jamás olvidarte... JB</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© Miss Viernes, Hecho por Jaire Biutrarar (JB)/Kevin Aguirre</p>
+            <p>Mi creación más grande, para la chica más genial... Miss Viernes</p>
+            <p>Con amor, Jaire... Sé paciente, mi Pao, volveré...</p>
+            <a class="btn-pruebas" href="https://drive.google.com/drive/folders/1w7QLB6yS67wLobpPK2QJ6U6TMrlfDjp7?usp=sharing" target="_blank" rel="noopener">Pruebas</a>
+        </footer>
+    </div>
+
+    <dialog id="visor">
+        <button id="visor-cerrar" aria-label="Cerrar">✕</button>
+        <button id="visor-anterior" class="visor-flecha" aria-label="Foto anterior">‹</button>
+        <img id="visor-img" alt="">
+        <button id="visor-siguiente" class="visor-flecha" aria-label="Foto siguiente">›</button>
+        <p id="visor-contador"></p>
+    </dialog>
+
+    <script src="js/canciones.js"></script>
+    <script src="js/musica.js"></script>
+    <script src="js/navegacion.js"></script>
+    <script src="js/galeria.js"></script>
+</body>
+</html>
